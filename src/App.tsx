@@ -58,7 +58,7 @@ export const App = () => {
                             <option value='36'>Subseção Uruguaiana</option>
                         </select>
                     </h5>
-                    {!loading && (
+                    {cidade !== '' && !loading && (
                         <div className='d-grid gap-2'>
                             <a
                                 // eslint-disable-next-line react/jsx-no-target-blank
